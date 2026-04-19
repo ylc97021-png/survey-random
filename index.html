@@ -1,0 +1,21 @@
+<head>
+  <meta charset="UTF-8">
+  <title>問卷分配中...</title>
+  <script>
+    window.onload = function() {
+      var surveys = [
+        "https://forms.gle/https://forms.gle/6A37DWyY7gU5n6RR9",  // 問卷1
+        "https://forms.gle/https://forms.gle/arf35k7virkKwuyi9",  // 問卷2
+        "https://forms.gle/https://forms.gle/jiThDzK6ra56wrw86",  // 問卷3
+        "https://forms.gle/https://forms.gle/jjBtmpV5fJuT3eZu8"   // 問卷4
+      ];
+      
+      var randomIndex = Math.floor(Math.random() * surveys.length);
+      window.location.href = surveys[randomIndex];
+    }
+  </script>
+</head>
+<body>
+  <p>正在隨機分配問卷，請稍候...</p>
+</body>
+</html>
